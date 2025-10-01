@@ -1,0 +1,16 @@
+HELO bluewin.ch
+MAIL FROM: beleuz@bluewin.ch
+RCPT TO: beleuz@gmx.ch
+DATA
+From: <testmail@mailer.com>
+To: <beleuz@gmx.ch>
+MIME-Version: 1.0
+Content-type: text/html
+Subject: SMTP E-Mail test
+
+This could be an insane spam mail sent to so many recipients all the time
+Spamming people with mails from this smtp server ip.
+
+<b>This the html email message</b>
+<h1>This is a headline now</h1>
+
