@@ -51,3 +51,6 @@ Nmap done: 1 IP address (1 host up) scanned in 20.77 seconds
 
 
 
+### URLS:
+wordpress: http://fsociety.web:5000/admin
+joomla: http://fsociety.web:8081/administrator
