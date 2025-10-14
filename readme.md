@@ -1,5 +1,5 @@
-kali linux ip: 192.168.64.9
-login with: ssh ble@192.168.64.9
+kali linux ip: 192.168.64.10
+login with: ssh ble@192.168.64.10
 pw: lowest sec pw
 
 
