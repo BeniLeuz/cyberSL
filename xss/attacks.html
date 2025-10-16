@@ -21,3 +21,10 @@ document.getElementById('search-field').value
   <table><td style=\"background-image: url('image.jpg');\">whatthefuck</td></table>
   <td></td>
   <div><a href='./testing.ch'>abernei</a></div>
+
+  <img src='' onerror="fetch('https://api.github.com')
+  .then(response => response.json())
+  .then(data => console.log('CORS works! Data:', data))
+  .catch(error => console.error('CORS failed:', error));">
+
+  fetch('https://google.ch').then(response => {console.log('CORS is enabled! Status:', response.status); return response.text(); }) .catch(error => { console.error('CORS is NOT enabled or request failed:', error); });
