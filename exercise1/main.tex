@@ -1,0 +1,63 @@
+%! TeX root = main.tex
+
+\documentclass[12pt]{article}
+
+% Packages
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath}    % math
+\usepackage{amssymb}    % extra symbols
+\usepackage{graphicx}   % include graphics
+\usepackage{geometry}   % page layout
+\geometry{margin=1in}
+
+% Title
+\title{Sample LaTeX Document}
+\author{Your Name}
+\date{\today}
+
+\begin{document}
+
+\maketitle
+
+\tableofcontents
+\newpage
+
+\section{Introduction}
+
+aber das funkt also work now is a jaok LaTeX document. You can write math inline, like $E = mc^2$, or in display mode:
+
+\[
+\int_0^\infty e^{-x^2} dx = \frac{\sqrt{\pi}}{2}.
+\]
+
+\section{Second Section}
+
+also oder? nice can aber nei include subfiles if you want to split the project:
+
+%\input{chapters/chapter1.tex}
+
+\section{Conclusion}
+
+wait is the nah of the sample gotem.
+
+\end{document}
+✅ Notes
+Math included: Inline $...$ and display \[...\].
+
+Subfiles: You can create a folder chapters/ and add subfiles like chapter1.tex and uncomment the \input{...} line.
+
+test immediately with vimtex + pdflatex + latexmk.
+
+If you want, I can also make a small “project template” with a main.tex + two subfiles + auto % !TEX root lines so you can test recursive compilation in Neovim.
+
+Do you want me to do that?
+
+
+
+
+
+
+
+
+
+
